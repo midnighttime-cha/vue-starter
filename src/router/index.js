@@ -6,8 +6,7 @@ const routes = [
   {
     path: '/',
     name: 'IndexHome',
-    redirect: { name: 'Home' },
-    component: () => import('@/views/Home.vue'),
+    component: () => import('@/components/home/Home.vue'),
   }
 ];
 
